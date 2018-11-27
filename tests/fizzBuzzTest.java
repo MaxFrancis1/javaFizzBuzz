@@ -25,5 +25,4 @@ public class fizzBuzzTest {
         String result = two.run(input);
         assertEquals("2 Fizz Buzz FizzBuzz", result);
     }
-
 }
