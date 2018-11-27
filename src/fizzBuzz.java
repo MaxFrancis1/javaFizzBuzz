@@ -19,5 +19,14 @@ public class fizzBuzz {
         }
         return result.trim();
     }
+    public static void main(String[] args) {
+        fizzBuzz x = new fizzBuzz();
+        int[] numbers = new int[100];
+        for(int i = 0; i < 100; i++) {
+            numbers[i] = i + 1;
+        }
+        String fizzBuzzedNumbers = x.run(numbers);
+        System.out.println(fizzBuzzedNumbers);
+    }
 }
 
